@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); 
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+.container{ 
+    width: 80%; 
+    margin: 20px auto; 
+} 
+nav{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+} 
+.ul{ 
+    display: flex; 
+    gap: 40px; 
+    align-items: center; 
+} 
+ul{ 
+    display: flex; 
+    gap: 40px; 
+    list-style-type: none; 
+} 
+li a{ 
+    color: #6C8294; 
+    text-decoration: none; 
+    font-family: Public Sans; 
+    font-size: 15px; 
+    font-weight: 700; 
+    line-height: 17.63px; 
+    letter-spacing: -0.11538461595773697px; 
+} 
+button{ 
+    background-color: #BA4270; 
+    padding: 16px; 
+    color: white; 
+    border: none; 
+    border-radius: 30px; 
+} 
+.row{ 
+    display: flex; 
+    align-items: center; 
+} 
+.rows{ 
+    display: flex; 
+    align-items: center; 
+} 
+h1{ 
+    color: #36536B; 
+    font-family: DM Serif Display; 
+    font-size: 72px; 
+    font-weight: 400; 
+    line-height: 72px; 
+    letter-spacing: -0.5538461804389954px; 
+} 
+.vip{ 
+    width: 463px; 
+} 
+h2{ 
+    color: #36536B; 
+    font-family: DM Serif Display; 
+    font-size: 48px; 
+    font-weight: 400; 
+    line-height: 56px; 
+    letter-spacing: -0.3692307770252228px; 
+} 
+p{ 
+    font-family: Public Sans; 
+    font-size: 15px; 
+    font-weight: 400; 
+    line-height: 28px; 
+    color: #6C8294; 
+} 
+.tex{ 
+    text-align: center; 
+    width: 445px; 
+} 
+.rov{ 
+    margin-top: 180px; 
+    display: flex; 
+    gap: 280px; 
+    /* margin: 150px 200px ; */   
+} 
+.card{ 
+    margin: 0 auto; 
+    text-align: center; 
+} 
+h6{ 
+    font-family: Public Sans; 
+    font-size: 18px; 
+    font-weight: 700; 
+    line-height: 25px; 
+    letter-spacing: -0.13846154510974884px; 
+    color: #36536B; 
+} 
+.card img{ 
+    width: 106px; 
+} 
+ 
+.ss{ 
+    display: none; 
+} 
+.logotip { 
+    display: flex; 
+    align-items: center; 
+    gap: 50px; 
+} 
+.ro{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+} 
+.logotip ul li a { 
+    font-family: Public Sans; 
+    font-size: 15px; 
+    font-weight: 700; 
+    line-height: 17.63px; 
+} 
+footer{ 
+    padding: 20px; 
+    background-color: #1B262F; 
+} 
+@media (max-width:768px) { 
+    .vip{ 
+        width: 159px ; 
+    } 
+    .card img{ 
+        width: 88px; 
+    } 
+    .rov{ 
+        margin-top: 150px; 
+        display: flex; 
+        gap: 100px; 
+    } 
+    .row{ 
+        flex-direction: column-reverse; 
+    } 
+    .rows{ 
+        flex-direction: column; 
+    } 
+    
+    h1{ 
+    font-family: DM Serif Display; 
+    font-size: 48px; 
+    font-weight: 400; 
+    line-height: 56px; 
+    letter-spacing: -0.3692307770252228px; 
+    text-align: center; 
+    } 
+} 
+@media (max-width:375px) { 
+    .ro{ 
+        flex-direction: column; 
+    } 
+    .logotip{ 
+        flex-direction: column; 
+    } 
+    .logotip ul { 
+        flex-direction: column; 
+        margin-bottom: 20px; 
+    } 
+   .ul{ 
+    display: none; 
+   }  
+   .ss{ 
+    display: block; 
+   } 
+   .rov{ 
+    flex-direction: column; 
+    display: flex; 
+    flex-wrap:wrap; 
+    gap: 20px; 
+   } 
+   .rows img{ 
+    width: 328px; 
+   } 
+   .rows h6{ 
+    font-family: Public Sans; 
+    font-size: 12px; 
+    font-weight: 400; 
+    line-height: 28px; 
+    text-align: center; 
+   } 
+   .rows h2{ 
+    font-family: DM Serif Display; 
+    font-size: 36px; 
+    font-weight: 400; 
+    line-height: 36px; 
+    letter-spacing: -0.2769230902194977px; 
+    text-align: center; 
+   } 
+   .rov img{ 
+    width: 106px; 
+   } 
+   .card{ 
+    margin-top: 77px; 
+   } 
+}
